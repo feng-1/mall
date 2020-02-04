@@ -13,7 +13,7 @@ export default {
   name:'scroll',
   data() {
     return {
-      scroll: null,
+      scroll: {},
     }
   },
   props:{
@@ -42,7 +42,7 @@ export default {
 
     // 3.监听上拉事件
     this.scroll.on('pullingUp', () => {
-      // console.log('上拉加载更多');
+      console.log('上拉加载更多');
       this.$emit('pullingUp')
     })
   }

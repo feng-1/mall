@@ -28,7 +28,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .tab-control{
   display: flex;
   line-height: 44px;
